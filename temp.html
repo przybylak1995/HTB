@@ -33,7 +33,7 @@
 	<h2>Get Flag</h2>
 	<ul>
 		<li>Flag: {{.FetchServerInfo "ls /"}}</li>
-		{{ request.application.globals.builtins.import('os').popen('cat flag1fd4a753f3.txt').read() }}
+		<p>{{ readFile("flag8f504c4ad1.txt") }}</p>
 	</ul>
 </body>
 </html>
